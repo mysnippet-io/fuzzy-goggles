@@ -13,7 +13,6 @@
     <url>https://github.com/mysnippet-io/fuzzy-goggles</url>
     <inceptionYear>2023</inceptionYear>
 
-
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
@@ -33,6 +32,14 @@
             <email>wangyt4dev@gmail.com</email>
         </developer>
     </developers>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.26</version>
+        </dependency>
+    </dependencies>
 
     <scm>
         <connection>scm:git:https://github.com/mysnippet-io/fuzzy-goggles.git</connection>
